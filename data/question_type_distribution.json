@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "ICSE Question Type Distribution by Cognitive Level",
+    "compiled": "February 2026"
+  },
+  "question_types": [
+    {"type": "MCQ (1 mark)", "cognitive_level": "Knowledge", "marks_each": 1, "where": "Section A", "choice": false, "post2023_change": "No HOT MCQs even post-reform"},
+    {"type": "Fill in the blank", "cognitive_level": "Knowledge", "marks_each": 1, "where": "Section A", "choice": false, "post2023_change": "Unchanged"},
+    {"type": "True/False with reason", "cognitive_level": "Understanding", "marks_each": 2, "where": "Section A", "choice": false, "post2023_change": "Unchanged"},
+    {"type": "Match the column", "cognitive_level": "Knowledge", "marks_each": 3, "where": "Section A", "choice": false, "post2023_change": "Unchanged"},
+    {"type": "Short answer (2-3 marks)", "cognitive_level": "Understanding", "marks_each": 3, "where": "Section A", "choice": false, "post2023_change": "Unchanged"},
+    {"type": "Assertion-Reason", "cognitive_level": "Understanding/Analysis", "marks_each": 2, "where": "Section A", "choice": false, "post2023_change": "NEW - Introduced 2023"},
+    {"type": "Structured long answer", "cognitive_level": "Application", "marks_each": 5, "where": "Section B", "choice": true, "post2023_change": "Unchanged"},
+    {"type": "Case-based / data Qs", "cognitive_level": "Analysis", "marks_each": 5, "where": "Section B", "choice": true, "post2023_change": "NEW - Introduced 2024"},
+    {"type": "Problem-solving (Math/Physics)", "cognitive_level": "Application", "marks_each": 6, "where": "Section B", "choice": true, "post2023_change": "Unchanged"},
+    {"type": "Essay / Extended writing", "cognitive_level": "Understanding/Evaluation", "marks_each": 10, "where": "Section B", "choice": true, "post2023_change": "Evaluation component strengthened"},
+    {"type": "Diagram-based (Biology)", "cognitive_level": "Application", "marks_each": 4, "where": "Section A and B", "choice": false, "post2023_change": "Unchanged; dedicated marks per diagram"}
+  ],
+  "section_architecture": {
+    "Section_A": {
+      "marks": 40,
+      "choice": "No choice - all compulsory",
+      "coverage": "Entire syllabus - every chapter must appear",
+      "cognitive_focus": "Knowledge and Understanding (LOT)",
+      "question_format": "Short answer, MCQ, fill-in-blank, match column"
+    },
+    "Section_B": {
+      "marks": 40,
+      "choice": "Choose 4 out of 6 questions",
+      "coverage": "No two questions from same chapter",
+      "cognitive_focus": "Application and Analysis (HOT)",
+      "question_format": "Long answer, problem-solving, case-based, essay"
+    }
+  },
+  "internal_assessment": {
+    "total_marks": 20,
+    "school_awarded": 10,
+    "external_examiner": 10,
+    "cognitive_focus": "Application and Analysis exclusively",
+    "formats": ["Lab practicals", "Viva", "Project work", "Observation records"]
+  }
+}
