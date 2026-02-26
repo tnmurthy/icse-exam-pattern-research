@@ -1,0 +1,23 @@
+{
+  "metadata": {"title": "ICSE Official Difficulty Distribution", "compiled": "February 2026"},
+  "official_cisce_mandate": {
+    "Easy": {"percent": 30, "description": "Direct recall, 1-step answers, formula substitution", "cognitive_levels": ["L1_Knowledge"]},
+    "Average": {"percent": 50, "description": "2-3 step reasoning, standard application of concepts", "cognitive_levels": ["L2_Understanding", "L3_Application"]},
+    "Difficult": {"percent": 20, "description": "Multi-step, real-world context, HOT questions", "cognitive_levels": ["L4_Analysis", "L5_Evaluation"]}
+  },
+  "post_reform_shift": {
+    "note": "Difficult % increasing from 20% to 25% as HOT% rises post-2023",
+    "2024_distribution": {"Easy": 28, "Average": 49, "Difficult": 23},
+    "2025_distribution": {"Easy": 26, "Average": 48, "Difficult": 26},
+    "2026_target": {"Easy": 25, "Average": 45, "Difficult": 30}
+  },
+  "subject_difficulty_notes": [
+    {"subject": "Mathematics", "easy_type": "Direct substitution in formulas", "difficult_type": "Multi-step proofs, construction"},
+    {"subject": "Physics", "easy_type": "Define/state laws", "difficult_type": "Multi-step numericals with unit conversions"},
+    {"subject": "Chemistry", "easy_type": "Name/write equations", "difficult_type": "Mole concept, organic reaction mechanisms"},
+    {"subject": "Biology", "easy_type": "Label diagrams", "difficult_type": "Explain processes with applications"},
+    {"subject": "English Language", "easy_type": "Grammar fill-in-blank", "difficult_type": "Unseen comprehension + summary"},
+    {"subject": "History and Civics", "easy_type": "Date/name recall", "difficult_type": "Source analysis, cause-effect essays"},
+    {"subject": "Geography", "easy_type": "Define terms", "difficult_type": "Map interpretation + data analysis"}
+  ]
+}
