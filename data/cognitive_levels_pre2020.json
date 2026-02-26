@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "ICSE Cognitive Level Distribution - Pre 2020",
+    "period": "2011-2020",
+    "source": "EDM 2023 Study (IISER Pune / IIT Bombay)",
+    "total_questions_analyzed": 838,
+    "taxonomy": "Bloom's Taxonomy (6 levels)",
+    "compiled": "February 2026"
+  },
+  "cognitive_levels_definition": {
+    "L1_Knowledge": "Recall of facts, definitions, dates, names",
+    "L2_Understanding": "Comprehension, explaining concepts in own words",
+    "L3_Application": "Using knowledge in new situations, solving problems",
+    "L4_Analysis": "Breaking down information, finding patterns",
+    "L5_Evaluation": "Judging, critiquing, justifying decisions",
+    "L6_Create": "Producing new work, designing, constructing"
+  },
+  "subjects": [
+    {
+      "subject": "Mathematics",
+      "paper_code": "ICSE-MATH",
+      "duration_minutes": 150,
+      "total_marks": 80,
+      "cognitive_distribution": {
+        "L1_Knowledge": 5,
+        "L2_Understanding": 10,
+        "L3_Application": 75,
+        "L4_Analysis": 8,
+        "L5_Evaluation": 2,
+        "L6_Create": 0
+      },
+      "HOT_percent": 10,
+      "LOT_percent": 90,
+      "dominant_level": "Application",
+      "top_action_verbs": ["Find", "Prove", "Solve", "Construct", "Draw"],
+      "most_frequent_verb": "Find",
+      "most_frequent_verb_count": 192
+    },
+    {
+      "subject": "Physics",
+      "paper_code": "ICSE-SCI1",
+      "duration_minutes": 90,
+      "total_marks": 80,
+      "cognitive_distribution": {
+        "L1_Knowledge": 15,
+        "L2_Understanding": 20,
+        "L3_Application": 50,
+        "L4_Analysis": 12,
+        "L5_Evaluation": 3,
+        "L6_Create": 0
+      },
+      "HOT_percent": 15,
+      "LOT_percent": 85,
+      "dominant_level": "Application",
+      "top_action_verbs": ["Calculate", "State", "Explain", "Define", "Draw"]
+    },
+    {
+      "subject": "Chemistry",
+      "paper_code": "ICSE-SCI2",
+      "duration_minutes": 90,
+      "total_marks": 80,
+      "cognitive_distribution": {
+        "L1_Knowledge": 35,
+        "L2_Understanding": 30,
+        "L3_Application": 25,
+        "L4_Analysis": 8,
+        "L5_Evaluation": 2,
+        "L6_Create": 0
+      },
+      "HOT_percent": 10,
+      "LOT_percent": 90,
+      "dominant_level": "Knowledge",
+      "top_action_verbs": ["Name", "State", "Write", "Explain", "Define"],
+      "most_frequent_verb": "Name",
+      "most_frequent_verb_count": 188
+    },
+    {
+      "subject": "Biology",
+      "paper_code": "ICSE-SCI3",
+      "duration_minutes": 90,
+      "total_marks": 80,
+      "cognitive_distribution": {
+        "L1_Knowledge": 30,
+        "L2_Understanding": 40,
+        "L3_Application": 15,
+        "L4_Analysis": 12,
+        "L5_Evaluation": 3,
+        "L6_Create": 0
+      },
+      "HOT_percent": 15,
+      "LOT_percent": 85,
+      "dominant_level": "Understanding",
+      "top_action_verbs": ["Name", "Write", "Explain", "State", "Draw"],
+      "note": "ICSE Biology leans toward Understanding unlike CBSE which leans Knowledge"
+    },
+    {
+      "subject": "English Language",
+      "paper_code": "ICSE-ENG1",
+      "duration_minutes": 120,
+      "total_marks": 80,
+      "cognitive_distribution": {
+        "L1_Knowledge": 10,
+        "L2_Understanding": 30,
+        "L3_Application": 25,
+        "L4_Analysis": 25,
+        "L5_Evaluation": 10,
+        "L6_Create": 0
+      },
+      "HOT_percent": 35,
+      "LOT_percent": 65,
+      "dominant_level": "Understanding and Analysis",
+      "top_action_verbs": ["Comprehend", "Analyse", "Write", "Identify", "Evaluate"],
+      "note": "Most cognitively diverse subject; only subject with meaningful Evaluation-level questions"
+    },
+    {
+      "subject": "History and Civics",
+      "paper_code": "ICSE-HIST",
+      "duration_minutes": 120,
+      "total_marks": 80,
+      "cognitive_distribution": {
+        "L1_Knowledge": 40,
+        "L2_Understanding": 35,
+        "L3_Application": 15,
+        "L4_Analysis": 8,
+        "L5_Evaluation": 2,
+        "L6_Create": 0
+      },
+      "HOT_percent": 10,
+      "LOT_percent": 90,
+      "dominant_level": "Knowledge",
+      "top_action_verbs": ["Recall", "Explain", "Describe", "Identify", "Mention"]
+    },
+    {
+      "subject": "Geography",
+      "paper_code": "ICSE-GEO",
+      "duration_minutes": 120,
+      "total_marks": 80,
+      "cognitive_distribution": {
+        "L1_Knowledge": 35,
+        "L2_Understanding": 30,
+        "L3_Application": 20,
+        "L4_Analysis": 12,
+        "L5_Evaluation": 3,
+        "L6_Create": 0
+      },
+      "HOT_percent": 15,
+      "LOT_percent": 85,
+      "dominant_level": "Knowledge and Understanding",
+      "top_action_verbs": ["Define", "Describe", "Explain", "Locate", "Calculate"],
+      "note": "Always includes compulsory 10-mark map-based question (Application level)"
+    }
+  ],
+  "overall_findings": {
+    "avg_HOT_percent": 14.3,
+    "avg_LOT_percent": 85.7,
+    "L6_Create_any_subject": false,
+    "trend_stability": "Distribution remained largely stable across all 9 years (2011-2020)",
+    "MCQ_HOT_questions": 0,
+    "key_insight": "LOT questions vastly outnumber HOT across all ICSE subjects pre-2020"
+  }
+}
