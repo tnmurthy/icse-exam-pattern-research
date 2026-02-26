@@ -1,0 +1,53 @@
+{
+  "metadata": {"title": "ICSE Marking Scheme Patterns", "compiled": "February 2026"},
+  "universal_rules": [
+    {"rule": "Step marking", "applies_to": ["Mathematics", "Physics", "Chemistry"], "description": "Partial credit given for correct method even with wrong final answer"},
+    {"rule": "Word limit not enforced", "applies_to": ["History", "English"], "description": "Answers exceeding expected length get no extra marks per marker instructions"},
+    {"rule": "Units marked separately", "applies_to": ["Physics", "Chemistry"], "description": "Correct numerical answer without unit loses 0.5 mark per instance"},
+    {"rule": "Diagram marks dedicated", "applies_to": ["Biology"], "description": "2-4 marks per diagram; not drawing = guaranteed marks lost"},
+    {"rule": "BODMAS / method shown", "applies_to": ["Mathematics"], "description": "Must show working; direct answer without steps may lose method marks"}
+  ],
+  "subject_specific": [
+    {
+      "subject": "Mathematics",
+      "step_marking": true,
+      "typical_breakdown": "Method mark (M) + Accuracy mark (A) + Answer mark (B)",
+      "common_errors_penalized": ["No units", "Rounding error without showing intermediate steps", "Missing conclusion in proof"]
+    },
+    {
+      "subject": "Physics",
+      "step_marking": true,
+      "typical_breakdown": "Formula (1) + Substitution (1) + Answer with unit (1)",
+      "common_errors_penalized": ["Missing SI unit", "Wrong significant figures", "Formula stated but not applied"]
+    },
+    {
+      "subject": "Chemistry",
+      "step_marking": true,
+      "typical_breakdown": "Equation (1) + Balance (1) + Condition/state (1)",
+      "common_errors_penalized": ["Unbalanced equation", "Missing state symbols", "Wrong chemical formula"]
+    },
+    {
+      "subject": "Biology",
+      "step_marking": false,
+      "diagram_marks": "2-4 marks per diagram, must be labeled",
+      "typical_breakdown": "Point-based: 1 mark per valid point",
+      "common_errors_penalized": ["Unlabeled diagram", "Missing function alongside structure"]
+    },
+    {
+      "subject": "English Language",
+      "step_marking": false,
+      "typical_breakdown": "Content (50%) + Expression/Language (50%)",
+      "common_errors_penalized": ["Exceeding word limit in summary", "Not using own words in comprehension"]
+    },
+    {
+      "subject": "History and Civics",
+      "step_marking": false,
+      "typical_breakdown": "Point-based long answers: 1-2 marks per explained point",
+      "common_errors_penalized": ["Listing without explanation", "Mixing Civics and History examples"]
+    }
+  ],
+  "internal_assessment_marking": {
+    "school_component": {"marks": 10, "awarded_by": "Class teacher", "basis": "Assignments, unit tests, classwork"},
+    "external_component": {"marks": 10, "awarded_by": "CISCE external examiner", "basis": "Practical exam, viva, project"}
+  }
+}
