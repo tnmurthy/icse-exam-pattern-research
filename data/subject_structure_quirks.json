@@ -1,0 +1,64 @@
+{
+  "metadata": {"title": "ICSE Subject-Specific Structural Quirks", "compiled": "February 2026"},
+  "subjects": [
+    {
+      "subject": "English Language",
+      "quirk": "No Section B choice - ALL questions compulsory",
+      "sections": ["Unseen passage", "Letter/Notice/Email", "Short composition", "Grammar"],
+      "marks": 80,
+      "choice": false
+    },
+    {
+      "subject": "English Literature",
+      "quirk": "Section A has compulsory extract Qs; Section B has essay on texts (choose 1 of 2 per book)",
+      "sections": ["Section A: Extracts (compulsory)", "Section B: Essay on prose/poetry (choice)"],
+      "marks": 80,
+      "choice": true
+    },
+    {
+      "subject": "History and Civics",
+      "quirk": "New from 2025: compulsory source-based map/document question in Section A",
+      "sections": ["Section A: Short answer (compulsory)", "Section B: Long answer (choice)"],
+      "marks": 80,
+      "choice": true
+    },
+    {
+      "subject": "Geography",
+      "quirk": "Always includes compulsory 10-mark map-based question - pure Application level",
+      "sections": ["Section A: Short answer", "Section B: Long answer", "Map Work: 10 marks compulsory"],
+      "marks": 80,
+      "choice": true
+    },
+    {
+      "subject": "Mathematics",
+      "quirk": "Paper set for 100 marks but evaluated out of 80; 6 questions in Section B, attempt any 4",
+      "sections": ["Section A: 40 marks (compulsory)", "Section B: Attempt 4 of 6 (40 marks)"],
+      "marks": 80,
+      "set_for": 100,
+      "choice": true
+    },
+    {
+      "subject": "Science",
+      "quirk": "THREE separate 90-minute papers: Physics (Sci 1), Chemistry (Sci 2), Biology (Sci 3) - not one combined paper",
+      "papers": [
+        {"name": "Physics", "code": "Science Paper 1", "duration": 90},
+        {"name": "Chemistry", "code": "Science Paper 2", "duration": 90},
+        {"name": "Biology", "code": "Science Paper 3", "duration": 90}
+      ],
+      "marks_each": 80,
+      "choice": true
+    },
+    {
+      "subject": "Computer Applications",
+      "quirk": "Group III subject: 50 marks Internal Assessment (majority of grade)",
+      "internal_assessment": 50,
+      "external": 50,
+      "choice": true
+    }
+  ],
+  "general_rules": {
+    "section_a_coverage": "Every chapter of the syllabus must appear in Section A",
+    "section_b_no_repeat": "No two questions in Section B can come from the same chapter",
+    "class_9_included": "Entire Class 9-10 syllabus is examinable - no 'only 10th' portion"
+  }
+}
