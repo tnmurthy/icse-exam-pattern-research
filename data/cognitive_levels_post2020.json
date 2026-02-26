@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "ICSE Cognitive Level Distribution - Post 2020 Reform Trajectory",
+    "period": "2020-2026",
+    "source": "CISCE Official Circulars, Specimen Papers, NEP 2020 Implementation",
+    "compiled": "February 2026"
+  },
+  "reform_trigger": {
+    "policy": "NEP 2020 (National Education Policy)",
+    "board": "CISCE",
+    "goal": "Shift from rote-learning to competency-based assessment",
+    "target_year": 2026,
+    "target_HOT_percent": 40
+  },
+  "year_on_year_trajectory": [
+    {
+      "year": 2021,
+      "context": "COVID-era papers; syllabus reduced by 30%; no structural HOT change",
+      "avg_HOT_percent": 10,
+      "new_question_types": [],
+      "notable_changes": "Syllabus reduction only; cognitive level unchanged"
+    },
+    {
+      "year": 2022,
+      "context": "NEP 2020 influence begins; CISCE internal discussions on reform",
+      "avg_HOT_percent": 12,
+      "new_question_types": [],
+      "notable_changes": "Minor uptick in Analysis-level questions in English and Physics"
+    },
+    {
+      "year": 2023,
+      "context": "CISCE formal circular issued on HOT increase from 2024",
+      "avg_HOT_percent": 15,
+      "new_question_types": ["Assertion-Reason", "MCQ with justification"],
+      "notable_changes": "Assertion-Reason introduced in Science subjects"
+    },
+    {
+      "year": 2024,
+      "context": "First year of visible HOT shift; item banks under development",
+      "avg_HOT_percent": 20,
+      "new_question_types": ["Case-based questions", "Data interpretation questions"],
+      "notable_changes": "Case-based and data interpretation Qs introduced in Section B"
+    },
+    {
+      "year": 2025,
+      "context": "CISCE releases official subject-wise Item Banks tagged with Bloom's levels",
+      "avg_HOT_percent": 25,
+      "new_question_types": ["Source-based questions (History)", "Experimental data analysis (Science)"],
+      "notable_changes": "Item Banks published; paper setters formally required to use Bloom's tags"
+    },
+    {
+      "year": 2026,
+      "context": "40% competency-focused questions mandated by CISCE",
+      "avg_HOT_percent": 40,
+      "new_question_types": ["Real-world scenario questions", "Interdisciplinary case studies"],
+      "notable_changes": "Full competency-based framework operational"
+    }
+  ],
+  "subject_HOT_shift": [
+    {"subject": "Mathematics", "pre2020": 10, "2021_22": 12, "2023_24": 17, "2025": 22, "2026_target": 40},
+    {"subject": "Physics", "pre2020": 15, "2021_22": 16, "2023_24": 20, "2025": 24, "2026_target": 40},
+    {"subject": "Chemistry", "pre2020": 10, "2021_22": 11, "2023_24": 16, "2025": 21, "2026_target": 40},
+    {"subject": "Biology", "pre2020": 15, "2021_22": 17, "2023_24": 20, "2025": 24, "2026_target": 40},
+    {"subject": "English Language", "pre2020": 35, "2021_22": 37, "2023_24": 40, "2025": 44, "2026_target": 50},
+    {"subject": "History and Civics", "pre2020": 10, "2021_22": 11, "2023_24": 15, "2025": 19, "2026_target": 38},
+    {"subject": "Geography", "pre2020": 15, "2021_22": 16, "2023_24": 19, "2025": 21, "2026_target": 38}
+  ],
+  "new_question_formats_post2020": [
+    {"type": "Case-based / Situational", "description": "Real-world scenario given; students analyze and respond", "cognitive_level": "Analysis", "introduced": 2024},
+    {"type": "Data Interpretation", "description": "Graphs, tables, experimental data for analysis", "cognitive_level": "Analysis", "introduced": 2024},
+    {"type": "Assertion-Reason (A-R)", "description": "Tests why not just what; both assertion and reason evaluated", "cognitive_level": "Understanding/Analysis", "introduced": 2023},
+    {"type": "Source-based (History)", "description": "Primary source excerpts with Analysis/Evaluation sub-parts", "cognitive_level": "Analysis/Evaluation", "introduced": 2025},
+    {"type": "MCQ with Justification", "description": "Select answer AND write brief reasoning", "cognitive_level": "Understanding", "introduced": 2023}
+  ],
+  "item_banks_initiative": {
+    "launched": 2024,
+    "description": "CISCE published subject-wise item banks with Bloom's Taxonomy level tags",
+    "available_at": "cisce.org",
+    "significance": "First time CISCE formally published Bloom's-mapped question sets; paper setters required to use cognitive-level tags from 2025"
+  }
+}
